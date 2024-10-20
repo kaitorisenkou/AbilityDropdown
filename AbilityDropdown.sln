@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbilityDropdown", "AbilityDropdown\AbilityDropdown.csproj", "{347565A3-CD56-4F22-934F-4F28F4DEEE8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{347565A3-CD56-4F22-934F-4F28F4DEEE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347565A3-CD56-4F22-934F-4F28F4DEEE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347565A3-CD56-4F22-934F-4F28F4DEEE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347565A3-CD56-4F22-934F-4F28F4DEEE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36A8DF87-21C1-478A-AAA3-0331735E3857}
+	EndGlobalSection
+EndGlobal
