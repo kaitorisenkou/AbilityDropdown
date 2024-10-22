@@ -18,6 +18,10 @@ namespace AbilityDropdown {
             AbilityDropdownGroupCategoryDef.TryClose(this);
         }
 
+        public override bool Valid(LocalTargetInfo target, bool throwMessages = false) {
+            return true;
+        }
+
         public IEnumerable<CompAbility_DropdownGroup> GetGroup() => 
             CompAbility_DropdownGroup.GetGroup(Props.groupDef, parent.pawn);
         public static IEnumerable<CompAbility_DropdownGroup> GetGroup(AbilityDropdownGroupCategoryDef def,Pawn pawn) {
