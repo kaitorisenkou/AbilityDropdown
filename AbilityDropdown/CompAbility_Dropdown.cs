@@ -21,6 +21,9 @@ namespace AbilityDropdown {
         public override bool Valid(LocalTargetInfo target, bool throwMessages = false) {
             return true;
         }
+        public override bool CanApplyOn(LocalTargetInfo target, LocalTargetInfo dest) {
+            return true;
+        }
 
         public IEnumerable<CompAbility_DropdownGroup> GetGroup() => 
             CompAbility_DropdownGroup.GetGroup(Props.groupDef, parent.pawn);
